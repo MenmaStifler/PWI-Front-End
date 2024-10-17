@@ -10,9 +10,9 @@ function saludo() {
 // Ejercicio 2
 
 function confirmacionLogeo() {
-    let usuario = prompt("Ingrese el usuario") || "Usuario no ingresado";
-    let password = prompt("Ingrese la contraseña") || "Contraseña no ingresada";
-    usuario === "Maria" && password === "1234" 
+    let usuario = prompt("Ingrese el usuario");
+    let password = prompt("Ingrese la contraseña");
+    usuario === "Juan" && password === "1234" 
         ? alert("Puede acceder al sitio") 
         : alert("Alguno o ambos datos ingresados son incorrectos");
 }
@@ -25,7 +25,7 @@ function conversion() {
     let dolares = parseFloat(pesos) / 170;
     isNaN(dolares) 
         ? console.log("Valor no válido para conversión") 
-        : console.log(dolares.toFixed(2)); // Redondea a dos decimales
+        : console.log(dolares.toFixed(2));
 }
 
 
